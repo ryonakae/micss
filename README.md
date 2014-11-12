@@ -117,17 +117,17 @@ JavaScriptで要素を探す場合はidが便利なので使っても良いで�
 
 子要素は**出来るだけ**親要素のclass名を引き継ぐようにします。
 
-    <div class="entryList">
-      <div class="entryList-item">
-        <h1 class="entryList-item-title">エントリータイトル</h1>
-        <p class="entryList-item-text">エントリー本文</p>
+    <div class="m-entryList">
+      <div class="m-entryList-item">
+        <h1 class="m-entryList-item-title">エントリータイトル</h1>
+        <p class="m-entryList-item-text">エントリー本文</p>
       </div>
     </div>
 
 このように子要素は親要素の名前を引き継ぐようにすると、class名の重複が防げます。Sassなどでネストする必要もなくなるので、良い感じのCSSが書けます。  
-`.entryList-item`のように、親要素と子要素はハイフンで繋ぎます。
+`.m-entryList-item`のように、親要素と子要素はハイフンで繋ぎます。
 
-例えば「Entry Title Block」のように要素の名前が長い場合、`.entryTitleBlock`のように、
+例えば「Entry Title Block」のように要素の名前が長い場合、`.m-entryTitleBlock`のように、
 
 * 頭文字は小文字
 * 2つ目以降の単語の頭文字を大文字
